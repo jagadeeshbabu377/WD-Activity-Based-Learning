@@ -1,0 +1,17 @@
+body { font-family: sans-serif; background: #160a00; color: #fff; padding: 20px; margin: 0; }
+.banner { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('https://unsplash.com') center/cover; padding: 45px 20px; text-align: center; border-radius: 12px; margin-bottom: 20px; border: 1px solid #d97706; }
+.banner h1 { margin: 0; font-size: 2rem; text-shadow: 0 0 10px #f59e0b; color: #fde047; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; max-width: 1200px; margin: 0 auto; }
+.card { background: #2a1400; padding: 12px; border-radius: 10px; border: 1px solid #78350f; display: flex; flex-direction: column; gap: 6px; }
+.img { height: 110px; border-radius: 6px; background-size: cover; background-position: center; }
+.i-dance { background-image: url('https://unsplash.com'); }
+.i-sing { background-image: url('https://unsplash.com'); }
+.i-drama { background-image: url('https://unsplash.com'); }
+.card span { font-size: 0.6rem; font-weight: bold; padding: 2px 6px; border-radius: 4px; align-self: flex-start; background: #ea580c; }
+.card h3 { margin: 0; font-size: 1.1rem; color: #fef08a; }
+.card p { margin: 0; font-size: 0.75rem; color: #fed7aa; line-height: 1.4; }
+.form { background: #140500; border-color: #ea580c; justify-content: center; gap: 8px; }
+input, select, button { padding: 8px; border-radius: 5px; border: 1px solid #78350f; font-size: 0.8rem; }
+button { background: #ea580c; color: white; font-weight: bold; cursor: pointer; border: none; }
+button:hover { background: #d97706; box-shadow: 0 0 8px #f59e0b; }
+@media (max-width: 500px) { .grid { grid-template-columns: 1fr; } }
